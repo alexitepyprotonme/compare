@@ -1,0 +1,20 @@
+[package]
+name = "comp"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+error-chain = "0.4"
+# reqwest = { version = "0.10.0-alpha.2", features = ["blocking"] }
+# tokio = { version = "1", features = ["full"] }
+futures = "0.1"
+hyper = "0.11"
+url = "2.3.1"
+chrono = "0.4"
+regex = "1"
+# rusqlite = { version = "0.28.0", features = ["bundled"] }
+#rp2040-hal = "0.6.0"
+colored = "2"
+gradient = "0.3.3"
